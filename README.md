@@ -1,2 +1,3 @@
 # property-list-manager
-Property List Manger is just a simple application on linked list implementation.
+Property List Manager is just a simple application which is written based on linked list implementation.
+Linked list is one of the data structures.
