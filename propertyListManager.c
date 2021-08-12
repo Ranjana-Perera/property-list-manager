@@ -43,7 +43,7 @@ link addNewProperty(){
 	printf("\n\t\tEnter property id : ");    
 	scanf("%d",&ptr->propertyId);
 
-	printf("\n\t\tChoose district number of the property from below list.\n\n");
+	printf("\n\t\tChoose District Number Of The Property From Below List.\n\n");
 	printf("\n\t\t1.Ampara      \t\t2.Anuradhapura \t\t3.Badulla     \t\t4.Batticaloa  \t\t5.Colombo\n");
 	printf("\n\t\t6.Galle       \t\t7.Gampaha      \t\t8.Hambantota  \t\t9.Jaffa       \t\t10.Kalutara\n");
 	printf("\n\t\t11.Kandy      \t\t12.Kegalle     \t\t13.Kilinochchi\t\t14.Kurunegala \t\t15.Mannar\n");
