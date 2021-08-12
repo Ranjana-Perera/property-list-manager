@@ -133,18 +133,18 @@ void insertFront(list *l,link ptr){
 		if(l->head == NULL){
 		
 			l->head = l->tail = ptr;
-			printf("\n\t\t\"Property inserted at the front successfully!\"\n\n");  
+			printf("\n\t\t\"Your Property Is Inserted At The Front Successfully!\"\n\n");  
 	
 		}else{
 		
 			ptr->next = l->head;
 			l->head = ptr;
 			
-			printf("\n\t\t\"Property inserted at the front successfully!\"\n\n");  
+			printf("\n\t\t\"Your Property Is Inserted At The Front Successfully!\"\n\n");  
 	
 		}
 	}else{
-			printf("\n\t\t\"Property insertion failed!\"\n\n"); 
+			printf("\n\t\t\"Your Property Insertion Is Failed!\"\n\n"); 
 	}
 
 	
