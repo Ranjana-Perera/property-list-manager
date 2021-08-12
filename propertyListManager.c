@@ -157,18 +157,18 @@ void insertRear(list *l,link ptr){
 		if(l->head == NULL){
 			
 			l->head = l->tail = ptr;
-			printf("\n\t\t\"Property inserted at the end successfully!\"\n\n");  
+			printf("\n\t\t\"Your Property Is Inserted At The End Successfully!\"\n\n");  
 	          
 		
 		}else{
 			
 			l->tail->next = ptr;
 			l->tail = ptr;
-			printf("\n\t\t\"Property inserted at the end successfully!\"\n\n");  
+			printf("\n\t\t\"Your Property Is Inserted At The End Successfully!\"\n\n");  
 	          
 		}
 	}else{
-			printf("\n\t\t\"Property insertion failed!\"\n\n"); 
+			printf("\n\t\t\"Your Property Insertion Is Failed!\"\n\n"); 
 	}
 }
 
