@@ -207,17 +207,17 @@ void insertNext(list *l, link ptr){
 				
 				ptr->next = temp->next;
 				temp->next = ptr;
-				printf("\n\t\t\"Property inserted at the required position successfully!\"\n");  
+				printf("\n\t\t\"Your Property Is Inserted At The Required Position Successfully!\"\n");  
 				
 			}else{
 				
 				ptr->next = l->head;
 				l->head = ptr;
-				printf("\n\t\t\"Given property id is not found!\"\n"); 
+				printf("\n\t\t\"Given Property Id Is Not Found!\"\n"); 
 			}
 		}
 	}else{
-			printf("\n\t\t\"Property insertion failed!\"\n"); 
+			printf("\n\t\t\"Your Property Insertion Is Failed!\"\n"); 
 	}
 			
 }
