@@ -252,11 +252,11 @@ void searchProperty(list *l){
 		
 		if(found){
 			
-			printf("\n\t\t\"Property is found at the position %d.\"\n ",position);
+			printf("\n\t\t\"Your Property Is Found At The Position %d.\"\n ",position);
 			
 		}else{
 			
-			 printf("\n\t\t\"Property is not found!\"\n");  
+			 printf("\n\t\t\"Your Property Is Not Found!\"\n");  
 		
 		}
 	}
